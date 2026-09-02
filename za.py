@@ -63,7 +63,7 @@ WP_URL      = os.environ.get("WP_BASE_URL", "")
 WP_USER     = os.environ.get("WP_USERNAME", "")
 WP_PASSWORD = os.environ.get("WP_APP_PASSWORD", "")
 WP_BASE      = WP_URL.rstrip("/")
-WP_JOBS_URL  = f"{WP_BASE}/job-listings"
+WP_JOBS_URL  = f"{WP_BASE}/posts"
 WP_MEDIA_URL = f"{WP_BASE}/media"
 
 # ── Mistral ──────────────────────────────────────────────────────────────────
